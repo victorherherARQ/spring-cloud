@@ -1,3 +1,5 @@
+server:
+  port: 8888
 
-server.port=8888
-spring.cloud.config.server.git.uri=https://github.com/victorherherARQ/spring-cloud-config-descriptor/blob/develop/spring-cloud-config-descriptor/config-server/git-config.properties
+# show full health details at /health
+endpoints.health.sensitive: false
