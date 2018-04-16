@@ -1,7 +1,0 @@
-spring:
-  application:
-    name: spring-cloud-config-client
-  cloud:
-    config:
-      env: default # optional
-      uri: http://localhost:8888 # optional
